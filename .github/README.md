@@ -54,7 +54,7 @@ Install and configure the ripgrep command-line grep replacement.
        - name: "Install and configure the ripgrep command-line grep replacement"
          ansible.builtin.include_role:
            name: ans_role_config_ripgrep
-           public: yes
+           public: true
    ```
 
 ## Role Options
